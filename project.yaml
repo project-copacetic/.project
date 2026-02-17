@@ -1,0 +1,71 @@
+# .project metadata for Copacetic
+# Documentation: https://github.com/cncf/automation/tree/main/utilities/dot-project
+
+schema_version: "1.0.0"
+slug: "copacetic"
+name: "Copa"
+description: "CLI tool for directly patching container image vulnerabilities"
+type: "project"
+project_lead: "jeremyrickard"
+cncf_slack_channel: "#copa"
+
+maturity_log:
+  - phase: "sandbox"
+    date: "2023-09-19T00:00:00Z"
+    issue: "https://github.com/cncf/sandbox/issues/41"
+
+repositories:
+  - "https://github.com/project-copacetic/copacetic"
+  - "https://github.com/project-copacetic/copa-action"
+  - "https://github.com/project-copacetic/copa-extension"
+  - "https://github.com/project-copacetic/mcp-server"
+  - "https://github.com/project-copacetic/scanner-plugin-template"
+  - "https://github.com/project-copacetic/contrib"
+  - "https://github.com/project-copacetic/killercoda"
+
+website: "https://project-copacetic.github.io/copacetic/"
+artwork: "https://github.com/cncf/artwork/tree/main/projects/copa"
+
+adopters:
+  path: "https://github.com/project-copacetic/copacetic/blob/main/ADOPTERS.md"
+
+social:
+  slack: "https://cloud-native.slack.com/archives/C071UU5QDKJ"
+
+mailing_lists:
+  - "project-copa@googlegroups.com"
+
+security:
+  policy:
+    path: "https://github.com/project-copacetic/copacetic/blob/main/SECURITY.md"
+
+governance:
+  contributing:
+    path: "https://github.com/project-copacetic/copacetic/blob/main/CONTRIBUTING.md"
+  codeowners:
+    path: "https://github.com/project-copacetic/copacetic/blob/main/CODEOWNERS"
+  governance_doc:
+    path: "https://github.com/project-copacetic/copacetic/blob/main/GOVERNANCE.md"
+  code_of_conduct:
+    path: "https://github.com/project-copacetic/copacetic/blob/main/CODE_OF_CONDUCT.md"
+  contributor_ladder:
+    path: "https://github.com/project-copacetic/copacetic/blob/main/CONTRIBUTOR_LADDER.md"
+
+legal:
+  license:
+    path: "https://github.com/project-copacetic/copacetic/blob/main/LICENSE"
+  identity_type:
+    has_dco: true
+    has_cla: false
+    dco_url:
+      path: "https://developercertificate.org/"
+
+documentation:
+  readme:
+    path: "https://github.com/project-copacetic/copacetic/blob/main/README.md"
+  support:
+    path: "https://github.com/project-copacetic/copacetic/blob/main/SUPPORT.md"
+
+landscape:
+  category: "Provisioning"
+  subcategory: "Security & Compliance"
