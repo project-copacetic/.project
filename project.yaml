@@ -24,7 +24,7 @@ repositories:
   - "https://github.com/project-copacetic/killercoda"
 
 website: "https://project-copacetic.github.io/copacetic/"
-artwork: "https://github.com/cncf/artwork/tree/main/projects/copa"
+artwork: "https://github.com/cncf/artwork/tree/master/projects/copa"
 
 adopters:
   path: "https://github.com/project-copacetic/copacetic/blob/main/ADOPTERS.md"
@@ -47,7 +47,7 @@ governance:
   governance_doc:
     path: "https://github.com/project-copacetic/copacetic/blob/main/GOVERNANCE.md"
   code_of_conduct:
-    path: "https://github.com/project-copacetic/copacetic/blob/main/CODE_OF_CONDUCT.md"
+    path: "https://github.com/cncf/foundation/blob/main/code-of-conduct.md"
   contributor_ladder:
     path: "https://github.com/project-copacetic/copacetic/blob/main/CONTRIBUTOR_LADDER.md"
 
