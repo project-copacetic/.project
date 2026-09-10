@@ -7,7 +7,9 @@ name: "Copa"
 description: "CLI tool for directly patching container image vulnerabilities"
 type: "project"
 project_lead: "jeremyrickard"
-cncf_slack_channel: "#copa"
+slack_channels:
+  - name: "#copa"
+    primary: true
 
 maturity_log:
   - phase: "sandbox"
